@@ -7,7 +7,7 @@ image-build:
 
 .PHONY: run
 run:
-	docker run -d --name gosleep kmdkuk/go-sleep
+	docker run -d --rm --name gosleep kmdkuk/go-sleep
 
 .PHONY: remove
 remove:
