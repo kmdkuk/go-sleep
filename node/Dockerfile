@@ -1,4 +1,4 @@
-FROM node:16-buster
+FROM node:18-buster
 WORKDIR /
 
 ARG DUMB_INIT_VERSION=1.2.2
